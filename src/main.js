@@ -8,6 +8,7 @@ import { router } from '@/router'
 // import "element-plus/dist/index.css";
 
 import '@/styles/index.scss'
+import '@/styles/tailwind.css'
 import 'uno.css'
 
 // 一些只使用到 API 的，需要手动导入样式
