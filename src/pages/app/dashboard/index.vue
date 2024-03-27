@@ -167,7 +167,8 @@ import {
   TitleComponent,
   TooltipComponent,
   LegendComponent,
-  GridComponent
+  GridComponent,
+  ToolboxComponent
 } from "echarts/components";
 import VChart, { THEME_KEY } from "vue-echarts";
 
@@ -180,7 +181,8 @@ use([
   TitleComponent,
   TooltipComponent,
   LegendComponent,
-  GridComponent
+  GridComponent,
+  ToolboxComponent
 ]);
 export default defineComponent({
   components: {

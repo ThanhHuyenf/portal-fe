@@ -22,12 +22,12 @@ export const appRoutes = {
 			children: [
 				{
 					path: 'list',
-					meta: { title: 'Danh sách', icon: 'activity' },
-					redirect: '/app/test-menu/l1-1/l2-1',
+					meta: { title: 'Danh sách' },
+					component: () => import('@/pages/app/user/index.vue')
 				},
 				{
 					path: 'l1-2',
-					meta: { title: 'Thiết bị', icon: 'fe:app-menu', alwaysShow: true },
+					meta: { title: 'Thiết bị', },
 					redirect: '/app/test-menu/l1-2/l2-3',
 				}
 			]
@@ -220,6 +220,6 @@ export const appRoutes = {
 		// 		}
 		// 	]
 		// },
-		// appAdminRoutes
+		appAdminRoutes
 	]
 }

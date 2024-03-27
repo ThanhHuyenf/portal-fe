@@ -46,5 +46,7 @@ export const icons = new Set([
 	'mingcute:notification-line',
 	'ic:round-history',
 	'eos-icons:file-system-outlined',
-	'iconoir:group'
+	'iconoir:group',
+	'majesticons:edit-pen-2',
+	'ic:baseline-delete'
 ])

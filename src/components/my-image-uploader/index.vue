@@ -245,7 +245,7 @@ const confirmInput = () => {
 			>
 				<div class="my-img-loader__in">
 					<Icon style="width: 3em; height: 3em; margin-bottom: 4px" />
-					<p>添加图片</p>
+					<p>Upload File</p>
 					<div v-if="material" class="my-img-loader__pmask" @click.stop="clickAdd"></div>
 				</div>
 				<template v-if="tip" #tip>
