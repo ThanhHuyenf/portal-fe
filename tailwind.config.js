@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       color: {
-        primary: '#1b5cff'
+        primary: '#1b5cff',
+        secondary: '#64c5b1'
+      },
+      textColor: {
+        primary: '#1b5cff',
+        secondary: '#64c5b1',
+        danger: '#e3342f',
       }
     },
   },
