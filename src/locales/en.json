@@ -1,0 +1,24 @@
+{
+  "device": {
+    "no": "No.",
+    "device_name": "Device name",
+    "device_group": "Device group",
+    "device_id": "Device ID",
+    "device_model": "Device model",
+    "device_status": "Device status",
+    "current_task" : "Current task",
+    "task_status" : "Task start/ stop",
+    "time_online": "Online time",
+    "task_parameters" : "Task parameters"
+  },
+  "pd": {
+    "device_name": "Search by device name",
+    "device_group": "Enter device type",
+    "device_id": "Enter device ID",
+    "device_model": "Enter device model",
+    "device_status": "Choose device status",
+    "current_task" : "Current task",
+    "task_status" : "Task start/ stop",
+    "task_parameters" : "Task parameters"
+  }
+}

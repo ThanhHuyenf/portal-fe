@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { router } from '@/router'
-
 // 全部引入
 // import "~/styles/element/index.scss";
 // import ElementPlus from "element-plus";
@@ -16,7 +15,10 @@ import 'element-plus/theme-chalk/src/message.scss'
 import 'element-plus/theme-chalk/src/message-box.scss'
 import 'element-plus/theme-chalk/src/notification.scss'
 
+import i18n from '../i18n';
+
 const app = createApp(App)
 // app.use(ElementPlus)
 app.use(router)
+app.use(i18n())
 app.mount('#app')

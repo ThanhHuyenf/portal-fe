@@ -1,0 +1,24 @@
+{
+  "device": {
+    "no": "STT",
+    "device_name": "Tên thiết bị",
+    "device_group": "Nhóm thiết bị",
+    "device_id": "ID thiết bị",
+    "device_model": "Mô hình",
+    "device_status": "Trạng thái",
+    "current_task": "Nhiệm vụ hiện tại",
+    "task_status": "Trạng thái",
+    "time_online": "Thời gian online",
+    "task_parameters": "Tham số"
+  },
+  "pd": {
+    "device_name": "Tên thiết bị",
+    "device_group": "Nhóm thiết bị",
+    "device_id": "ID thiết bị",
+    "device_model": "Mô hình",
+    "device_status": "Trạng thái",
+    "current_task": "Nhiệm vụ hiện tại",
+    "task_status": "Trạng thái",
+    "task_parameters": "Tham số"
+  }
+}

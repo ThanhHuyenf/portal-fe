@@ -1,0 +1,24 @@
+{
+  "device": {
+    "no": "序号",
+    "device_name": "设备名称",
+    "device_group": "设备组",
+    "device_id": "设备ID",
+    "device_model": "设备型号",
+    "device_status": "设备状态",
+    "current_task": "当前任务",
+    "task_status": "任务状态",
+    "time_online": "上线时间",
+    "task_parameters": "任务参数"
+  },
+  "pd": {
+    "device_name": "设备名称",
+    "device_group": "设备组",
+    "device_id": "设备ID",
+    "device_model": "设备型号",
+    "device_status": "设备状态",
+    "current_task": "当前任务",
+    "task_status": "任务状态",
+    "task_parameters": "任务参数"
+  }
+}
