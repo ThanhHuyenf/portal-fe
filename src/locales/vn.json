@@ -4,21 +4,57 @@
     "device_name": "Tên thiết bị",
     "device_group": "Nhóm thiết bị",
     "device_id": "ID thiết bị",
-    "device_model": "Mô hình",
-    "device_status": "Trạng thái",
+    "device_model": "Model",
+    "device_status": "Trạng thái thiết bị",
     "current_task": "Nhiệm vụ hiện tại",
-    "task_status": "Trạng thái",
+    "task_status": "Task bắt đầu/ dừng lại",
     "time_online": "Thời gian online",
     "task_parameters": "Tham số"
+  },
+  "device_group": {
+    "name": "Tên nhóm",
+    "gr_name": "Nhóm thiết bị",
+    "note": "Ghi chú"
+  },
+  "script_management": {
+    "id": "Script ID",
+    "name": "Tên",
+    "version": "Phiên bản",
+    "note": "Ghi chú",
+    "file": "File tải lên"
   },
   "pd": {
     "device_name": "Tên thiết bị",
     "device_group": "Nhóm thiết bị",
     "device_id": "ID thiết bị",
-    "device_model": "Mô hình",
+    "device_model": "Model",
     "device_status": "Trạng thái",
     "current_task": "Nhiệm vụ hiện tại",
     "task_status": "Trạng thái",
-    "task_parameters": "Tham số"
+    "task_parameters": "Tham số",
+    "group_name": "Nhóm thiết bị",
+    "group_note": "Ghi chú",
+    "script_name": "Nhập tên script",
+    "script_version": "Nhập phiên bản script",
+    "script_note": "Nhập ghi chú"
+  },
+  "dialog": {
+    "add" : "Thêm mới",
+    "edit" : "Chỉnh sửa",
+    "delete_title" : "Xác nhận xóa",
+    "delete_action": "Xoá",
+    "cancel" : "Hủy",
+    "submit": "Lưu"
+  },
+  "actions": {
+    "add": "Thêm mới",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "search": "Tìm kiếm",
+    "reset": "Làm mới",
+    "cancel": "Hủy",
+    "submit": "Lưu",
+    "start": "Bắt đầu",
+    "stop": "Dừng lại"
   }
 }

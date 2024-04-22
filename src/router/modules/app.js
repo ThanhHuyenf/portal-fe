@@ -22,30 +22,30 @@ export const appRoutes = {
       children: [
         {
           path: 'list',
-          meta: {title: 'Danh sách'},
+          meta: {title: 'Device'},
           component: () => import('@/pages/app/user/index.vue')
         },
         {
           path: 'l1-2',
-          meta: {title: 'Thiết bị',},
-          redirect: '/app/test-menu/l1-2/l2-3',
+          meta: {title: 'Device group'},
+          component: () => import('@/pages/app/device_list/index.vue')
         }
       ]
     },
     {
-      path: '/app/agency',
+      path: '/app/script_management',
       meta: {title: 'Đại lý', icon: 'bi:houses'},
       redirect: '/app/test-menu/l1-1',
       children: [
         {
-          path: 'list',
+          path: 'script_management',
           meta: {title: 'Danh sách', icon: 'activity'},
-          redirect: '/app/test-menu/l1-1/l2-1',
+          component: () => import('@/pages/app/script_management/index.vue')
         },
         {
           path: 'l1-2',
-          meta: {title: 'Yêu cầu hỗ trợ', icon: 'fe:app-menu', alwaysShow: true},
-          redirect: '/app/test-menu/l1-2/l2-3',
+          meta: {title: 'Run script', icon: 'fe:app-menu', alwaysShow: true},
+          component: () => import('@/pages/app/run_script/index.vue')
         }
       ]
     },

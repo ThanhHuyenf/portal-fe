@@ -11,6 +11,18 @@
     "time_online": "上线时间",
     "task_parameters": "任务参数"
   },
+  "device_group": {
+    "name": "设备组名称",
+    "gr_name": "设备组名称",
+    "note": "备注"
+  },
+  "script_management": {
+    "id": "Script ID",
+    "name": "Tên",
+    "version": "Phiên bản",
+    "note": "Ghi chú",
+    "file": "File tải lên"
+  },
   "pd": {
     "device_name": "设备名称",
     "device_group": "设备组",
@@ -19,6 +31,30 @@
     "device_status": "设备状态",
     "current_task": "当前任务",
     "task_status": "任务状态",
-    "task_parameters": "任务参数"
+    "task_parameters": "任务参数",
+    "group_name": "设备组名称",
+    "group_note": "备注",
+    "script_name": "Nhập tên script",
+    "script_version": "Nhập phiên bản script",
+    "script_note": "Nhập ghi chú"
+  },
+  "dialog": {
+    "add" : "添加",
+    "edit" : "编辑",
+    "delete_title" : "删除确认",
+    "delete_action": "删除",
+    "cancel" : "取消",
+    "submit": "提交"
+  },
+  "actions": {
+    "add": "添加",
+    "edit": "编辑",
+    "delete": "删除",
+    "search": "搜索",
+    "reset": "重置",
+    "cancel": "取消",
+    "submit": "提交",
+    "start": "开始",
+    "stop": "停止"
   }
 }

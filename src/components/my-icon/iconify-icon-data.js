@@ -48,5 +48,6 @@ export const icons = new Set([
 	'eos-icons:file-system-outlined',
 	'iconoir:group',
 	'majesticons:edit-pen-2',
-	'ic:baseline-delete'
+	'ic:baseline-delete',
+	'mdi:eye',
 ])

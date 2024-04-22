@@ -11,6 +11,25 @@
     "time_online": "Online time",
     "task_parameters" : "Task parameters"
   },
+  "device_group": {
+    "name": "Device group name",
+    "gr_name": "Group name",
+    "note": "Note"
+  },
+  "script_management": {
+    "id": "Script ID",
+    "name": "Name",
+    "version": "Version",
+    "note": "Note",
+    "file": "File upload"
+  },
+  "run_script": {
+    "group": "Group",
+    "script": "Script",
+    "operating": "Operating parameters",
+    "type": "Run type",
+    "timing_execution": "Timing execution"
+  },
   "pd": {
     "device_name": "Search by device name",
     "device_group": "Enter device type",
@@ -19,6 +38,30 @@
     "device_status": "Choose device status",
     "current_task" : "Current task",
     "task_status" : "Task start/ stop",
-    "task_parameters" : "Task parameters"
+    "task_parameters" : "Task parameters",
+    "group_name": "Enter group name",
+    "group_note": "Enter note",
+    "script_name": "Enter script name",
+    "script_version": "Enter script version",
+    "script_note": "Enter script note"
+  },
+  "dialog": {
+    "add" : "Add new",
+    "edit" : "Edit item",
+    "delete_title" : "Delete item",
+    "delete_action": "Delete",
+    "cancel" : "Cancel",
+    "submit": "Submit"
+  },
+  "actions": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "start": "Start",
+    "stop": "Stop"
   }
 }
